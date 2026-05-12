@@ -1,0 +1,90 @@
+{
+  "personal": {
+    "name": "Samuel Stuhl",
+    "email": "sam.stuhl.personal@gmail.com",
+    "phone": "(732) 712-1514",
+    "github": "github.com/Sam-Stuhl",
+    "linkedin": "linkedin.com/in/samuel-stuhl"
+  },
+  "summary": "Passionate software developer experienced in Python, Swift, and Java, building real-world applications from backend APIs to machine learning systems. Seeking a Software Engineering (SWE) internship to design scalable, high-impact software solutions.",
+  "experience": [
+    {
+      "title": "Software Engineer Intern",
+      "organization": "I-Genie.ai",
+      "location": "Remote",
+      "start_date": "Aug 2025",
+      "end_date": "Present",
+      "bullets": [
+        "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets, automated Quality Control (QC), and produced segment-level outputs for dashboards.",
+        "Improved Machine Learning (ML)/Natural Language Processing (NLP) workflows: migrated Term Frequency-Inverse Document Frequency (TF-IDF) to FastText, designed Large Language Model (LLM) prompts for relabeling/summaries, and curated/translated corpora; boosting accuracy while cutting runtime.",
+        "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alpha Detect",
+      "stack": "Python, Pandas, yfinance",
+      "bullets": [
+        "Built a backtesting engine for rule-based trading strategies (moving averages, Relative Strength Index (RSI)) with a modular plugin architecture.",
+        "Developed a Command Line Interface (CLI) for fast evaluation and performance reporting on historical market data."
+      ]
+    },
+    {
+      "name": "Notion Planner Integration",
+      "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
+      "bullets": [
+        "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
+        "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "President, CS Club",
+      "organization": "Middlesex College",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
+      "bullets": [
+        "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
+        "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
+      ]
+    },
+    {
+      "title": "Software Captain, Robotics Team",
+      "organization": "Timothy Christian School",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
+      "bullets": [
+        "Directed programming subteam and coordinated development tasks.",
+        "Implemented robot control and sensor integration in Java, improving First Tech Challenge (FTC) performance."
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": "Python, Java, Swift, JavaScript",
+    "Frameworks & Libraries": "FastAPI, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
+    "Cloud & Data": "Databricks, Google Colab, Azure Blob, Spark",
+    "Developer Tools": "Git, GitHub, VS Code, Xcode, Cursor AI, Android Studio"
+  },
+  "education": [
+    {
+      "school": "Timothy Christian School",
+      "location": "Piscataway, NJ, USA",
+      "gpa": "4.438",
+      "start_date": "Sept 2021",
+      "end_date": "Present",
+      "coursework": "AP CSA, AP CSP, AP Calculus BC, AP Calculus AB, Honors Physics"
+    },
+    {
+      "school": "Middlesex College",
+      "location": "Edison, NJ, USA",
+      "gpa": "4.0",
+      "start_date": "Sept 2024",
+      "end_date": "May 2025",
+      "coursework": "CSC 161 Intro to Computer Science Using Java, CSC 162 Object Oriented Programming Using Java"
+    }
+  ]
+}
