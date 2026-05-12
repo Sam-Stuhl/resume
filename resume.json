@@ -6,7 +6,7 @@
     "github": "github.com/Sam-Stuhl",
     "linkedin": "linkedin.com/in/samuel-stuhl"
   },
-  "summary": "Software engineer with internship experience in Python data pipelines, Machine Learning (ML)/Natural Language Processing (NLP) workflows, and cloud infrastructure. Building scalable systems across backend Application Programming Interfaces (APIs), data engineering, and analytics.",
+  "summary": "Software engineer with internship experience shipping AI-native features: Large Language Model (LLM) prompting, Machine Learning (ML) and Natural Language Processing (NLP) workflows, and Python data pipelines on Spark, Azure, and Databricks. Full-stack capable with FastAPI backends and JavaScript frontends.",
   "experience": [
     {
       "title": "Software Engineer Intern",
@@ -15,58 +15,58 @@
       "start_date": "Aug 2025",
       "end_date": "Dec 2025",
       "bullets": [
-        "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets, automated Quality Control (QC), and produced segment-level outputs for dashboards.",
-        "Improved Machine Learning (ML)/Natural Language Processing (NLP) workflows: migrated Term Frequency-Inverse Document Frequency (TF-IDF) to FastText, designed Large Language Model (LLM) prompts for relabeling/summaries, and curated/translated corpora; boosting accuracy while cutting runtime.",
-        "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
+        "Designed 10+ Large Language Model (LLM) prompts for relabeling and summarization and improved Machine Learning (ML) and Natural Language Processing (NLP) workflows by migrating Term Frequency-Inverse Document Frequency (TF-IDF) to FastText; boosted classification accuracy while cutting runtime.",
+        "Engineered Python data pipelines across 3-5 SEO and social datasets with automated QC, producing segment-level outputs that drove downstream dashboards.",
+        "Built analytics tooling and scalable infrastructure: Streamlit UIs, Spark over Azure Blob Storage, Databricks and Colab GPUs; generated JSON-driven charts and presentation-ready insights."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Alpha Detect",
-      "stack": "Python, Pandas, yfinance",
-      "bullets": [
-        "Built a backtesting engine for rule-based trading strategies (moving averages, Relative Strength Index (RSI)) with a modular plugin architecture.",
-        "Developed a Command Line Interface (CLI) for fast evaluation and performance reporting on historical market data."
-      ]
-    },
-    {
       "name": "Notion Planner Integration",
       "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
       "bullets": [
-        "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
-        "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
+        "Built a full-stack app integrating Notion with 3 platforms (Canvas, Microsoft Teams, RenWeb) to streamline academic scheduling.",
+        "Automated assignment imports with a Python FastAPI backend and JavaScript frontend, eliminating manual entry across daily coursework."
+      ]
+    },
+    {
+      "name": "Alpha Detect",
+      "stack": "Python, Pandas, yfinance",
+      "bullets": [
+        "Built a backtesting engine supporting 2-3 rule-based trading strategies (moving averages, Relative Strength Index) with a modular plugin architecture for adding new signals.",
+        "Developed a CLI for fast strategy evaluation and performance reporting on historical equity market data."
       ]
     }
   ],
   "leadership": [
     {
-      "title": "President, CS Club",
+      "title": "President, Computer Science Club",
       "organization": "Middlesex College",
-      "location": "",
-      "start_date": "",
-      "end_date": "",
+      "location": "Edison, NJ",
+      "start_date": "Sept 2024",
+      "end_date": "Dec 2024",
       "bullets": [
-        "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
-        "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
+        "Led 5-member executive team at age 16, organized planning meetings, and built a Python curriculum from scratch.",
+        "Ran lessons on Python fundamentals to 10+ students, fostering hands-on coding experience and assigning teaching roles to officers."
       ]
     },
     {
       "title": "Software Captain, Robotics Team",
       "organization": "Timothy Christian School",
-      "location": "",
-      "start_date": "",
-      "end_date": "",
+      "location": "Piscataway, NJ",
+      "start_date": "Sept 2025",
+      "end_date": "Present",
       "bullets": [
-        "Directed programming subteam and coordinated development tasks.",
-        "Implemented robot control and sensor integration in Java, improving First Tech Challenge (FTC) performance."
+        "Direct the programming subteam, coordinating development tasks across autonomous and tele-operated robot control systems.",
+        "Implement robot control logic and sensor integration in Java for First Tech Challenge (FTC) competitions."
       ]
     }
   ],
   "skills": {
-    "Languages": "Python, Java, Swift, JavaScript",
-    "Frameworks & Libraries": "FastAPI, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
-    "Cloud & Data": "Databricks, Google Colab, Azure Blob, Spark, Power BI",
+    "Languages": "Python, JavaScript, Java, Swift",
+    "Frameworks & Libraries": "FastAPI, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
+    "Cloud & Data": "Databricks, Google Colab, Azure Blob Storage, Apache Spark, Power BI",
     "Developer Tools": "Git, GitHub, VS Code, Xcode, Cursor AI, Android Studio"
   },
   "education": [
@@ -76,7 +76,7 @@
       "gpa": "4.438",
       "start_date": "Sept 2021",
       "end_date": "Present",
-      "coursework": "AP CSA, AP CSP, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)"
+      "coursework": "AP Computer Science A, AP Computer Science Principles, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)"
     },
     {
       "school": "Middlesex College",
