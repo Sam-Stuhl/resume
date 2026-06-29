@@ -6,8 +6,20 @@
     "github": "github.com/Sam-Stuhl",
     "linkedin": "linkedin.com/in/samuel-stuhl"
   },
-  "summary": "Software engineer with internship experience shipping AI-native features: Large Language Model (LLM) prompting, Machine Learning (ML) and Natural Language Processing (NLP) workflows, and Python data pipelines on Spark, Azure, and Databricks. Full-stack capable with FastAPI backends and JavaScript frontends.",
+  "summary": "Software engineer with internship experience building AI-native developer tooling, Large Language Model (LLM) workflows, and Python data pipelines. Comfortable across the full stack with TypeScript, Python, FastAPI, and Cloudflare infrastructure; passionate about shipping clean, tested code that puts users first.",
   "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "organization": "LumaSoft",
+      "location": "Hybrid - East Brunswick, NJ",
+      "start_date": "Jun 2026",
+      "end_date": "Present",
+      "bullets": [
+        "Designed and built lumadot, an autonomous Artificial Intelligence (AI) agent integrated with GitHub that triages issues and answers cross-repo questions across ~11 organization repositories; implemented the reusable GitHub Actions workflow, GitHub App authentication, and agent prompt/behavior on top of Claude Code.",
+        "Built luma-logger, a ~1,667 line Cloudflare Worker in TypeScript using Hono and Drizzle Object-Relational Mapping (ORM) over Cloudflare D1; exposes a read-only dashboard with run logs, up/down ratings, feedback notes, and per-run token/cost metrics.",
+        "Connected the agent read-only to six external systems (Rollbar, Datadog, Google Cloud, Intercom, MySQL replica, Cloudflare) for cross-system triage, gated behind a scoped Bash command allowlist."
+      ]
+    },
     {
       "title": "Software Engineer Intern",
       "organization": "I-Genie.ai",
@@ -15,9 +27,9 @@
       "start_date": "Aug 2025",
       "end_date": "Dec 2025",
       "bullets": [
-        "Designed 10+ Large Language Model (LLM) prompts for relabeling and summarization and improved Machine Learning (ML) and Natural Language Processing (NLP) workflows by migrating Term Frequency-Inverse Document Frequency (TF-IDF) to FastText; boosted classification accuracy while cutting runtime.",
-        "Engineered Python data pipelines across 3-5 SEO and social datasets with automated QC, producing segment-level outputs that drove downstream dashboards.",
-        "Built analytics tooling and scalable infrastructure: Streamlit UIs, Spark over Azure Blob Storage, Databricks and Colab GPUs; generated JSON-driven charts and presentation-ready insights."
+        "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets, automated Quality Control (QC), and produced segment-level outputs for dashboards.",
+        "Improved Machine Learning (ML)/Natural Language Processing (NLP) workflows: migrated Term Frequency-Inverse Document Frequency (TF-IDF) to FastText, designed Large Language Model (LLM) prompts for relabeling/summaries, and curated/translated corpora; boosting accuracy while cutting runtime.",
+        "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
       ]
     }
   ],
@@ -26,65 +38,56 @@
       "name": "Notion Planner Integration",
       "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
       "bullets": [
-        "Built a full-stack app integrating Notion with 3 platforms (Canvas, Microsoft Teams, RenWeb) to streamline academic scheduling.",
-        "Automated assignment imports with a Python FastAPI backend and JavaScript frontend, eliminating manual entry across daily coursework."
-      ]
-    },
-    {
-      "name": "Alpha Detect",
-      "stack": "Python, Pandas, yfinance",
-      "bullets": [
-        "Built a backtesting engine supporting 2-3 rule-based trading strategies (moving averages, Relative Strength Index) with a modular plugin architecture for adding new signals.",
-        "Developed a CLI for fast strategy evaluation and performance reporting on historical equity market data."
+        "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
+        "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
       ]
     }
   ],
   "leadership": [
     {
-      "title": "President, Computer Science Club",
+      "title": "President, CS Club",
       "organization": "Middlesex College",
-      "location": "Edison, NJ",
-      "start_date": "Sept 2024",
-      "end_date": "Dec 2024",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
       "bullets": [
-        "Led 5-member executive team at age 16, organized planning meetings, and built a Python curriculum from scratch.",
-        "Ran lessons on Python fundamentals to 10+ students, fostering hands-on coding experience and assigning teaching roles to officers."
+        "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
+        "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
       ]
     },
     {
       "title": "Software Captain, Robotics Team",
       "organization": "Timothy Christian School",
-      "location": "Piscataway, NJ",
-      "start_date": "Sept 2025",
-      "end_date": "Present",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
       "bullets": [
-        "Direct the programming subteam, coordinating development tasks across autonomous and tele-operated robot control systems.",
-        "Implement robot control logic and sensor integration in Java for First Tech Challenge (FTC) competitions."
+        "Directed programming subteam and coordinated development tasks."
       ]
     }
   ],
   "skills": {
-    "Languages": "Python, JavaScript, Java, Swift",
-    "Frameworks & Libraries": "FastAPI, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
-    "Cloud & Data": "Databricks, Google Colab, Azure Blob Storage, Apache Spark, Power BI",
-    "Developer Tools": "Git, GitHub, VS Code, Xcode, Cursor AI, Android Studio"
+    "Languages": "Python, TypeScript, JavaScript, Java, Swift, Bash",
+    "Frameworks & Libraries": "FastAPI, Hono, Drizzle ORM, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
+    "Cloud & Data": "Cloudflare Workers, Cloudflare D1, Databricks, Google Colab, Azure Blob, Spark, Power BI, MySQL",
+    "Developer Tools": "Git, GitHub, GitHub Actions, Claude Code, VS Code, Xcode, Cursor AI, Android Studio"
   },
   "education": [
     {
-      "school": "Timothy Christian School",
-      "location": "Piscataway, NJ, USA",
-      "gpa": "4.438",
-      "start_date": "Sept 2021",
-      "end_date": "Present",
-      "coursework": "AP Computer Science A, AP Computer Science Principles, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)"
+      "school": "New Jersey Institute of Technology, Ying Wu College of Computing",
+      "location": "Newark, NJ, USA",
+      "gpa": "",
+      "start_date": "Sept 2026",
+      "end_date": "May 2030",
+      "coursework": ""
     },
     {
-      "school": "Middlesex College",
-      "location": "Edison, NJ, USA",
-      "gpa": "4.0",
-      "start_date": "Sept 2024",
-      "end_date": "May 2025",
-      "coursework": "CSC 161 Intro to Computer Science Using Java, CSC 162 Object Oriented Programming Using Java"
+      "school": "Timothy Christian School",
+      "location": "Piscataway, NJ, USA",
+      "gpa": "4.489",
+      "start_date": "Sept 2021",
+      "end_date": "Jun 2026",
+      "coursework": "Salutatorian; AP CSA, AP CSP, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)"
     }
   ]
 }
