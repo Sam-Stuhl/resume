@@ -3,91 +3,185 @@
     "name": "Samuel Stuhl",
     "email": "sam.stuhl.personal@gmail.com",
     "phone": "(732) 712-1514",
-    "github": "github.com/Sam-Stuhl",
-    "linkedin": "linkedin.com/in/samuel-stuhl"
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "github.com/Sam-Stuhl"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "linkedin.com/in/samuel-stuhl"
+      }
+    ]
   },
-  "summary": "Software engineer with internship experience building AI-native developer tooling, Large Language Model (LLM) workflows, and Python data pipelines. Comfortable across the full stack with TypeScript, Python, FastAPI, and Cloudflare infrastructure; passionate about shipping clean, tested code that puts users first.",
-  "experience": [
+  "sections": [
     {
-      "title": "Software Engineering Intern",
-      "organization": "LumaSoft",
-      "location": "Hybrid - East Brunswick, NJ",
-      "start_date": "Jun 2026",
-      "end_date": "Present",
-      "bullets": [
-        "Designed and built lumadot, an autonomous Artificial Intelligence (AI) agent integrated with GitHub that triages issues and answers cross-repo questions across ~11 organization repositories; implemented the reusable GitHub Actions workflow, GitHub App authentication, and agent prompt/behavior on top of Claude Code.",
-        "Built luma-logger, a ~1,667 line Cloudflare Worker in TypeScript using Hono and Drizzle Object-Relational Mapping (ORM) over Cloudflare D1; exposes a read-only dashboard with run logs, up/down ratings, feedback notes, and per-run token/cost metrics.",
-        "Connected the agent read-only to six external systems (Rollbar, Datadog, Google Cloud, Intercom, MySQL replica, Cloudflare) for cross-system triage, gated behind a scoped Bash command allowlist."
+      "type": "text",
+      "title": "Summary",
+      "text": "Software engineer with internship experience building production AI agents, Large Language Model (LLM) workflows, and observability infrastructure for developer and support tooling. Comfortable across the full stack with TypeScript, Python, FastAPI, and Cloudflare infrastructure; passionate about shipping clean, tested code that puts users first.",
+      "_fact": {
+        "id": 1,
+        "hash": "410e4cecfe11"
+      }
+    },
+    {
+      "type": "roles",
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "Software Engineering Intern",
+          "organization": "LumaSoft",
+          "location": "Hybrid - East Brunswick, NJ",
+          "start_date": "Jun 2026",
+          "end_date": "Aug 2026",
+          "bullets": [
+            "Designed an Intercom-integrated issue writer that auto-drafts customer-reported bug reports from support conversations, adopted by support reps for 97.5% of customer tickets.",
+            "Built lumadot, an autonomous Artificial Intelligence (AI) agent for automated code review integrated with GitHub Actions across ~11 organization repositories; became the org's most heavily used agent, reviewing 87% of merged pull requests, with GitHub App authentication and Claude Code-driven prompt/behavior design.",
+            "Built an issue analyst connecting the agent read-only to six external systems (Rollbar, Datadog, Google Cloud, Intercom, MySQL replica, Cloudflare) for cross-system triage, removing the log-access bottleneck for engineers and reaching a 79% approval rate on generated analyses.",
+            "Built luma-logger, a ~1,667 line Cloudflare Worker in TypeScript using Hono and Drizzle Object-Relational Mapping (ORM) over Cloudflare D1; exposes a read-only observability dashboard with run logs, ratings, feedback, and per-run token/cost metrics."
+          ],
+          "_fact": {
+            "id": 2,
+            "hash": "b20da97dcef0"
+          }
+        },
+        {
+          "title": "Software Engineer Intern",
+          "organization": "I-Genie.ai",
+          "location": "Remote",
+          "start_date": "Aug 2025",
+          "end_date": "Dec 2025",
+          "bullets": [
+            "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets with automated Quality Control (QC), and improved Machine Learning (ML)/Natural Language Processing (NLP) workflows by migrating Term Frequency-Inverse Document Frequency (TF-IDF) to FastText and designing Large Language Model (LLM) prompts for relabeling/summaries and corpus curation/translation; boosted accuracy while cutting runtime.",
+            "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
+          ],
+          "_fact": {
+            "id": 3,
+            "hash": "aa500924dcbd"
+          }
+        }
       ]
     },
     {
-      "title": "Software Engineer Intern",
-      "organization": "I-Genie.ai",
-      "location": "Remote",
-      "start_date": "Aug 2025",
-      "end_date": "Dec 2025",
-      "bullets": [
-        "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets, automated Quality Control (QC), and produced segment-level outputs for dashboards.",
-        "Improved Machine Learning (ML)/Natural Language Processing (NLP) workflows: migrated Term Frequency-Inverse Document Frequency (TF-IDF) to FastText, designed Large Language Model (LLM) prompts for relabeling/summaries, and curated/translated corpora; boosting accuracy while cutting runtime.",
-        "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Notion Planner Integration",
-      "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
-      "bullets": [
-        "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
-        "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
-      ]
-    }
-  ],
-  "leadership": [
-    {
-      "title": "President, CS Club",
-      "organization": "Middlesex College",
-      "location": "",
-      "start_date": "",
-      "end_date": "",
-      "bullets": [
-        "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
-        "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
+      "type": "projects",
+      "title": "Projects",
+      "entries": [
+        {
+          "name": "Notion Planner Integration",
+          "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
+          "bullets": [
+            "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
+            "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
+          ],
+          "_fact": {
+            "id": 4,
+            "hash": "e612e87e1457"
+          }
+        }
       ]
     },
     {
-      "title": "Software Captain, Robotics Team",
-      "organization": "Timothy Christian School",
-      "location": "",
-      "start_date": "",
-      "end_date": "",
-      "bullets": [
-        "Directed programming subteam and coordinated development tasks."
+      "type": "roles",
+      "title": "Leadership & Extracurriculars",
+      "entries": [
+        {
+          "title": "President, CS Club",
+          "organization": "Middlesex College",
+          "location": "",
+          "start_date": "",
+          "end_date": "",
+          "bullets": [
+            "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
+            "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
+          ],
+          "_fact": {
+            "id": 5,
+            "hash": "6780906252cc"
+          }
+        },
+        {
+          "title": "Software Captain, Robotics Team",
+          "organization": "Timothy Christian School",
+          "location": "",
+          "start_date": "",
+          "end_date": "",
+          "bullets": [
+            "Directed programming subteam and coordinated development tasks."
+          ],
+          "_fact": {
+            "id": 6,
+            "hash": "3c53c3c41ebb"
+          }
+        }
       ]
-    }
-  ],
-  "skills": {
-    "Languages": "Python, TypeScript, JavaScript, Java, Swift, Bash",
-    "Frameworks & Libraries": "FastAPI, Hono, Drizzle ORM, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
-    "Cloud & Data": "Cloudflare Workers, Cloudflare D1, Databricks, Google Colab, Azure Blob, Spark, Power BI, MySQL",
-    "Developer Tools": "Git, GitHub, GitHub Actions, Claude Code, VS Code, Xcode, Cursor AI, Android Studio"
-  },
-  "education": [
-    {
-      "school": "New Jersey Institute of Technology, Ying Wu College of Computing",
-      "location": "Newark, NJ, USA",
-      "gpa": "",
-      "start_date": "Sept 2026",
-      "end_date": "May 2030",
-      "coursework": ""
     },
     {
-      "school": "Timothy Christian School",
-      "location": "Piscataway, NJ, USA",
-      "gpa": "4.489",
-      "start_date": "Sept 2021",
-      "end_date": "Jun 2026",
-      "coursework": "Salutatorian; AP CSA, AP CSP, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)"
+      "type": "skills",
+      "title": "Technical Skills",
+      "groups": [
+        {
+          "category": "Languages",
+          "items": "Python, TypeScript, JavaScript, Java, Swift, Bash",
+          "_fact": {
+            "id": 7,
+            "hash": "36eed74229d3"
+          }
+        },
+        {
+          "category": "Frameworks & Libraries",
+          "items": "FastAPI, Hono, Drizzle ORM, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
+          "_fact": {
+            "id": 8,
+            "hash": "bdc99cc2dbcd"
+          }
+        },
+        {
+          "category": "Cloud & Data",
+          "items": "Cloudflare Workers, Cloudflare D1, Databricks, Google Colab, Azure Blob, Spark, Power BI, MySQL",
+          "_fact": {
+            "id": 9,
+            "hash": "2b820eec2989"
+          }
+        },
+        {
+          "category": "Developer Tools",
+          "items": "Git, GitHub, GitHub Actions, Claude Code, VS Code, Xcode, Cursor AI, Android Studio",
+          "_fact": {
+            "id": 10,
+            "hash": "df6b721b1768"
+          }
+        }
+      ]
+    },
+    {
+      "type": "education",
+      "title": "Education",
+      "entries": [
+        {
+          "school": "New Jersey Institute of Technology, Ying Wu College of Computing",
+          "location": "Newark, NJ, USA",
+          "gpa": "",
+          "start_date": "Sept 2026",
+          "end_date": "May 2030",
+          "coursework": "",
+          "_fact": {
+            "id": 11,
+            "hash": "a9efe1e94c8e"
+          }
+        },
+        {
+          "school": "Timothy Christian School",
+          "location": "Piscataway, NJ, USA",
+          "gpa": "4.489",
+          "start_date": "Sept 2021",
+          "end_date": "Jun 2026",
+          "coursework": "Salutatorian; AP CSA, AP CSP, AP Calculus BC, AP Calculus AB, Honors Physics; STEM Scholars Program: shadowed at Merck (data analytics, Power BI, dimensional modeling) and Evergreen Financial Group (portfolio construction, trading, investment vehicles)",
+          "_fact": {
+            "id": 12,
+            "hash": "eb5235d15780"
+          }
+        }
+      ]
     }
   ]
 }
