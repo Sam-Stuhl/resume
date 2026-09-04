@@ -18,7 +18,7 @@
     {
       "type": "text",
       "title": "Summary",
-      "text": "Software engineer with internship experience building production AI agents, Large Language Model (LLM) workflows, and observability infrastructure for developer and support tooling. Comfortable across the full stack with TypeScript, Python, FastAPI, and Cloudflare infrastructure; passionate about shipping clean, tested code that puts users first.",
+      "text": "Full-stack software engineer with two software engineering internships and a track record of independently building and operating production systems end to end, spanning backend, frontend, and infrastructure. Comfortable across Python, TypeScript, FastAPI, React, PostgreSQL, and Docker, with experience exposing APIs and MCP interfaces for AI-agent access. Founded and led a 5-member CS Club executive team, writing the Python curriculum and running hands-on workshops.",
       "_fact": {
         "id": 1,
         "hash": "410e4cecfe11"
@@ -35,10 +35,10 @@
           "start_date": "Jun 2026",
           "end_date": "Aug 2026",
           "bullets": [
-            "Designed an Intercom-integrated issue writer that auto-drafts customer-reported bug reports from support conversations, adopted by support reps for 97.5% of customer tickets.",
-            "Built lumadot, an autonomous Artificial Intelligence (AI) agent for automated code review integrated with GitHub Actions across ~11 organization repositories; became the org's most heavily used agent, reviewing 87% of merged pull requests, with GitHub App authentication and Claude Code-driven prompt/behavior design.",
-            "Built an issue analyst connecting the agent read-only to six external systems (Rollbar, Datadog, Google Cloud, Intercom, MySQL replica, Cloudflare) for cross-system triage, removing the log-access bottleneck for engineers and reaching a 79% approval rate on generated analyses.",
-            "Built luma-logger, a ~1,667 line Cloudflare Worker in TypeScript using Hono and Drizzle Object-Relational Mapping (ORM) over Cloudflare D1; exposes a read-only observability dashboard with run logs, ratings, feedback, and per-run token/cost metrics."
+            "Designed an Intercom-integrated issue writer auto-drafting bug reports from support conversations, adopted for 97.5% of customer tickets.",
+            "Built lumadot, an autonomous AI code-review agent integrated with GitHub Actions across ~11 org repos; the org's most-used agent, reviewing 87% of merged PRs.",
+            "Built an issue analyst linking the agent read-only to six external systems (Rollbar, Datadog, GCP, Intercom, MySQL, Cloudflare) for cross-system triage; 79% approval rate on generated analyses.",
+            "Built luma-logger, a ~1,667-line Cloudflare Worker (TypeScript, Hono, Drizzle ORM, Cloudflare D1) exposing a read-only observability dashboard with run logs and per-run cost metrics."
           ],
           "_fact": {
             "id": 2,
@@ -52,8 +52,8 @@
           "start_date": "Aug 2025",
           "end_date": "Dec 2025",
           "bullets": [
-            "Engineered Python data pipelines across Search Engine Optimization (SEO)/social datasets with automated Quality Control (QC), and improved Machine Learning (ML)/Natural Language Processing (NLP) workflows by migrating Term Frequency-Inverse Document Frequency (TF-IDF) to FastText and designing Large Language Model (LLM) prompts for relabeling/summaries and corpus curation/translation; boosted accuracy while cutting runtime.",
-            "Built analytics tooling and scalable infrastructure: Streamlit User Interfaces (UIs), Spark over Azure Blob, Databricks/Colab Graphics Processing Units (GPUs); generated JavaScript Object Notation (JSON)-driven charts and presentation-ready insights."
+            "Engineered Python data pipelines with automated QC and improved ML/NLP workflows by migrating TF-IDF to FastText and designing LLM prompts for relabeling and corpus curation; boosted accuracy while cutting runtime.",
+            "Built analytics tooling and infrastructure: Streamlit UIs, Spark over Azure Blob, and Databricks/Colab GPUs; generated JSON-driven charts and presentation-ready insights."
           ],
           "_fact": {
             "id": 3,
@@ -67,15 +67,39 @@
       "title": "Projects",
       "entries": [
         {
-          "name": "Notion Planner Integration",
-          "stack": "Python, JavaScript, HTML, CSS, FastAPI, Notion API, Canvas API",
+          "name": "Planner - Multi-Tenant Calendar PWA",
+          "stack": "Python, FastAPI, PostgreSQL, React, TypeScript, MCP",
           "bullets": [
-            "Built a full-stack app integrating Notion with Canvas, Teams, and RenWeb for streamlined academic scheduling.",
-            "Automated assignment imports with a Python backend and JavaScript (JS) frontend, improving workflow efficiency."
+            "Built and operate a multi-tenant planner PWA unifying classes, work, and Canvas assignments on one calendar; 675 commits, ~45k lines of app code, ~1,364 tests.",
+            "Designed a three-layer domain model with recurrence materialized once per rule, and exposed a public REST API plus an OAuth-secured MCP server for agent access."
           ],
           "_fact": {
-            "id": 4,
-            "hash": "e612e87e1457"
+            "id": 16,
+            "hash": "b37834cd3c3c"
+          }
+        },
+        {
+          "name": "Console - Self-Hosted PaaS Control Plane",
+          "stack": "Python, FastAPI, React, TypeScript, Docker, Traefik, MCP",
+          "bullets": [
+            "Built and operate a self-hosted PaaS control plane running 6 production apps: zero-downtime deploys behind Traefik with health-checked swaps and rollback; 103 commits, 465 tests.",
+            "Implemented secretless CI-to-server auth via GitHub OIDC and exposed a dual REST/MCP interface (24 tools) for an AI agent to operate deploys and logs."
+          ],
+          "_fact": {
+            "id": 17,
+            "hash": "33c03052d9cf"
+          }
+        },
+        {
+          "name": "CareerBase - Git-Style Resume Manager",
+          "stack": "Python, FastAPI, React, TypeScript, Claude Messages API",
+          "bullets": [
+            "Built and deployed CareerBase, a git-style resume manager with full version history, diffing, and one-click PDF compilation, open to public sign-up; 240 commits, ~31k lines, ~274 tests.",
+            "Shipped an in-app AI agent on the Claude Messages API with a streaming tool loop and four least-privilege skills."
+          ],
+          "_fact": {
+            "id": 15,
+            "hash": "667ecb8eabbc"
           }
         }
       ]
@@ -91,8 +115,7 @@
           "start_date": "",
           "end_date": "",
           "bullets": [
-            "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum.",
-            "Assigned teaching roles and ran lessons on Python basics, fostering hands-on coding experience."
+            "Led 5-member executive team at 16, organized planning meetings, and created Python curriculum."
           ],
           "_fact": {
             "id": 5,
@@ -111,44 +134,6 @@
           "_fact": {
             "id": 6,
             "hash": "3c53c3c41ebb"
-          }
-        }
-      ]
-    },
-    {
-      "type": "skills",
-      "title": "Technical Skills",
-      "groups": [
-        {
-          "category": "Languages",
-          "items": "Python, TypeScript, JavaScript, Java, Swift, Bash",
-          "_fact": {
-            "id": 7,
-            "hash": "36eed74229d3"
-          }
-        },
-        {
-          "category": "Frameworks & Libraries",
-          "items": "FastAPI, Hono, Drizzle ORM, React, scikit-learn, Pandas, NumPy, Streamlit, PySpark",
-          "_fact": {
-            "id": 8,
-            "hash": "bdc99cc2dbcd"
-          }
-        },
-        {
-          "category": "Cloud & Data",
-          "items": "Cloudflare Workers, Cloudflare D1, Databricks, Google Colab, Azure Blob, Spark, Power BI, MySQL",
-          "_fact": {
-            "id": 9,
-            "hash": "2b820eec2989"
-          }
-        },
-        {
-          "category": "Developer Tools",
-          "items": "Git, GitHub, GitHub Actions, Claude Code, VS Code, Xcode, Cursor AI, Android Studio",
-          "_fact": {
-            "id": 10,
-            "hash": "df6b721b1768"
           }
         }
       ]
@@ -179,6 +164,44 @@
           "_fact": {
             "id": 12,
             "hash": "eb5235d15780"
+          }
+        }
+      ]
+    },
+    {
+      "type": "skills",
+      "title": "Technical Skills",
+      "groups": [
+        {
+          "category": "Languages",
+          "items": "Python, TypeScript, JavaScript, Java, Swift, Bash",
+          "_fact": {
+            "id": 7,
+            "hash": "36eed74229d3"
+          }
+        },
+        {
+          "category": "Frameworks & Libraries",
+          "items": "FastAPI, React, scikit-learn, Pandas, NumPy, PySpark, Streamlit, Hono, Drizzle ORM",
+          "_fact": {
+            "id": 8,
+            "hash": "bdc99cc2dbcd"
+          }
+        },
+        {
+          "category": "Cloud & Data",
+          "items": "PostgreSQL, Docker, Cloudflare Workers, Cloudflare D1, Databricks, Spark, Azure Blob, Google Colab, Power BI, MySQL",
+          "_fact": {
+            "id": 9,
+            "hash": "2b820eec2989"
+          }
+        },
+        {
+          "category": "Developer Tools",
+          "items": "Claude Code, Git, GitHub, GitHub Actions, VS Code, Xcode, Cursor AI, Android Studio",
+          "_fact": {
+            "id": 10,
+            "hash": "df6b721b1768"
           }
         }
       ]
