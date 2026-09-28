@@ -14,7 +14,8 @@ on:
 
 jobs:
   notify:
-    runs-on: ubuntu-latest
+    # Sam's runner on the mini (ghrunner): hosted jobs stopped starting on the account.
+    runs-on: [self-hosted, macOS, resume]
     steps:
       - name: ask the site to rebuild
         env:
