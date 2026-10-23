@@ -2,7 +2,7 @@
   "personal": {
     "name": "Samuel Stuhl",
     "email": "sam.stuhl.personal@gmail.com",
-    "phone": "(732) 712-1514",
+    "phone": "",
     "links": [
       {
         "label": "GitHub",
@@ -46,7 +46,7 @@
           }
         },
         {
-          "title": "Software Engineer Intern",
+          "title": "Software Engineering Intern",
           "organization": "I-Genie.ai",
           "location": "Remote",
           "start_date": "Aug 2025",
@@ -147,7 +147,7 @@
           "location": "Newark, NJ, USA",
           "gpa": "",
           "start_date": "Sept 2026",
-          "end_date": "May 2030",
+          "end_date": "May 2029",
           "coursework": "",
           "_fact": {
             "id": 11,
